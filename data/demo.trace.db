@@ -1,0 +1,12 @@
+2023-09-27 19:37:53 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM [*]user where id=52"; expected "identifier"; SQL statement:
+SELECT * FROM user where id=52 [42001-214]
+2023-09-27 19:38:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM [*]USER WHERE ID=52"; expected "identifier"; SQL statement:
+SELECT * FROM USER WHERE ID=52 [42001-214]
+2023-09-27 19:38:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM [*]USER WHERE ID=2"; expected "identifier"; SQL statement:
+SELECT * FROM USER WHERE ID=2 [42001-214]
+2023-09-27 19:39:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM [*]USER WHERE ID = 2"; expected "identifier"; SQL statement:
+SELECT * FROM USER WHERE ID = 2 [42001-214]
